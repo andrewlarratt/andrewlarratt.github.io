@@ -1,0 +1,26 @@
+<html>
+ <head>
+  <title>Home Page</title>
+  <link href="home.css" rel="stylesheet" type="text/css">
+  <link href='button.css' rel='stylesheet' type='text/css'>
+<script language="javascript" type="text/javascript">
+function playSound(soundfile) {
+  document.getElementById("dummy").innerHTML=
+    "<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+}
+</script>
+ </head>
+ <body bgcolor= "#800080">
+  <center><a href="home.html" id="myButton">Home</a>
+  <a href="about_me.html" id="myButton">About Me</a>
+  <a href="portfolio.html" id="myButton">Portfolio</a>
+  <a href="resume.html" id="myButton">Resume</a>
+  <a href="tips.html" id="myButton">Tips, Tricks, and Strategies</a></center>
+  <h1>
+   <span style='color: #17202A'>W</span><span style='color: #1C2833'>e</span><span style='color: #1C2833'>l</span><span style='color: #1C2833'>c</span><span style='color: #2C3E50'>o</span><span style='color: #566573'>m</span><span style='color: #808B96'>e </span><span style='color: #ABB2B9'>t</span><span style='color: #D5D8DC'>o </span><span style='color: #D5D8DC'>m</span><span style='color: #D5D8DC'>y </span><span style='color: #D5D8DC'>H</span><span style='color: #ABB2B9'>o</span><span style='color: #808B96'>m</span><span style='color: #566573'>e</span> <span style='color: #2C3E50'>P</span><span style='color: #273746'>a</span><span style='color: #212F3D'>g</span><span style='color: #1C2833'>e</span><span style='color: #17202A'>!</span> </h1>
+  <p>Andrew Larratt</p>
+   <span id="dummy"></span>
+  <center><a href="#" onclick="playSound('images/tunnel.mp3');" id="myButton">Music</a></center>
+  <center><img src="images/steve.gif" height="150" alt= "Steve Dancing"><img src="images/home.png" height="350" alt= "Home"><img src="images/steve.gif" height="150" alt= "Steve Dancing"></center>
+ </body>
+</html>
